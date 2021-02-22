@@ -504,7 +504,7 @@
 /sbin/ip neigh replace 192.168.45.27 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source d0:31:69:91:ec:c3 -j DROP
 /sbin/ip neigh replace 192.168.45.28 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/ip neigh replace 192.168.45.29 lladdr e8:de:27:82:5c:3d dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.29 lladdr 00:06:4f:4e:c3:42 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source cc:fd:17:e0:95:85 -j DROP
 /sbin/ip neigh replace 192.168.45.30 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 00:06:4f:99:c1:cc -j DROP
@@ -580,7 +580,7 @@
 /sbin/ip neigh replace 192.168.45.69 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 00:16:01:ad:23:c1 -j DROP
 /sbin/ip neigh replace 192.168.45.70 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 00:06:4f:4e:c3:42 -j DROP
+/sbin/iptables -A bloqueados -m mac --mac-source 00:06:4f:4e:c3:24 -j DROP
 /sbin/ip neigh replace 192.168.45.71 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source d0:59:e4:77:fb:51 -j DROP
 /sbin/ip neigh replace 192.168.45.72 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
@@ -805,8 +805,7 @@
 /sbin/ip neigh replace 192.168.45.192 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.193 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.194 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source c4:6e:1f:2b:df:a7 -j DROP
-/sbin/ip neigh replace 192.168.45.195 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.195 lladdr c4:6e:1f:2b:df:a7 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 50:9e:a7:fc:a9:15 -j DROP
 /sbin/ip neigh replace 192.168.45.196 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 78:52:1a:24:a3:f6 -j DROP
