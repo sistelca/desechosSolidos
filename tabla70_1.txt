@@ -33,8 +33,7 @@
 /sbin/ip neigh replace 192.168.40.18 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 90:06:28:eb:ca:e1 -j DROP
 /sbin/ip neigh replace 192.168.40.19 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 00:1d:60:af:ab:d4 -j DROP
-/sbin/ip neigh replace 192.168.40.20 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.20 lladdr 00:1d:60:af:ab:d4 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source e8:46:41:31:df:ed -j DROP
 /sbin/ip neigh replace 192.168.40.21 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 80:9b:20:cd:f8:5c -j DROP
@@ -301,8 +300,7 @@
 /sbin/ip neigh replace 192.168.40.171 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 40:3f:8c:02:b8:50 -j DROP
 /sbin/ip neigh replace 192.168.40.172 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source ec:cb:30:74:ab:83 -j DROP
-/sbin/ip neigh replace 192.168.40.173 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.173 lladdr ec:cb:30:74:ab:83 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 00:19:21:89:91:db -j DROP
 /sbin/ip neigh replace 192.168.40.174 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.40.175 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
@@ -333,9 +331,8 @@
 /sbin/ip neigh replace 192.168.40.190 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source c0:3f:d5:d9:b3:7a -j DROP
 /sbin/ip neigh replace 192.168.40.191 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 90:f6:52:e1:95:4e -j DROP
-/sbin/ip neigh replace 192.168.40.192 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/ip neigh replace 192.168.40.193 lladdr a8:c8:3a:5f:89:a9 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.192 lladdr 90:f6:52:e1:95:4e dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.193 lladdr 88:9e:33:25:84:a0 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source e0:b9:a5:94:9a:9f -j DROP
 /sbin/ip neigh replace 192.168.40.194 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 00:08:22:00:b0:a6 -j DROP
@@ -373,8 +370,7 @@
 /sbin/iptables -A bloqueados -m mac --mac-source bc:25:e0:90:cd:04 -j DROP
 /sbin/ip neigh replace 192.168.40.211 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.40.212 lladdr c8:14:79:52:1a:f2 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source c0:3f:d5:1c:01:1a -j DROP
-/sbin/ip neigh replace 192.168.40.213 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.213 lladdr c0:3f:d5:1c:01:1a dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.40.214 lladdr c0:3f:d5:12:da:36 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 14:7d:c5:c3:e8:3c -j DROP
 /sbin/ip neigh replace 192.168.40.215 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
@@ -607,8 +603,7 @@
 /sbin/iptables -A bloqueados -m mac --mac-source 38:80:df:b8:e3:a2 -j DROP
 /sbin/ip neigh replace 192.168.45.88 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.89 lladdr 00:e0:4d:77:79:e7 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 74:de:2b:df:c7:fc -j DROP
-/sbin/ip neigh replace 192.168.45.90 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.90 lladdr 74:de:2b:df:c7:fc dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source e8:26:68:02:0b:c1 -j DROP
 /sbin/ip neigh replace 192.168.45.91 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.92 lladdr 0e:56:0a:cf:0b:68 dev eth2 nud perm 
@@ -712,8 +707,7 @@
 /sbin/ip neigh replace 192.168.45.145 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.146 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.147 lladdr f8:1a:67:ba:9b:6f dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source c8:9c:dc:14:d0:34 -j DROP
-/sbin/ip neigh replace 192.168.45.148 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.148 lladdr c8:9c:dc:14:d0:34 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source e8:93:09:49:fd:9a -j DROP
 /sbin/ip neigh replace 192.168.45.149 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 10:fe:ed:5d:09:44 -j DROP
@@ -780,8 +774,7 @@
 /sbin/ip neigh replace 192.168.45.182 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source c4:6e:1f:58:dc:9d -j DROP
 /sbin/ip neigh replace 192.168.45.183 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 3e:9b:fc:e1:51:43 -j DROP
-/sbin/ip neigh replace 192.168.45.184 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.184 lladdr 3e:9b:fc:e1:51:43 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 48:5a:3f:78:7f:b1 -j DROP
 /sbin/ip neigh replace 192.168.45.185 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 18:e3:bc:67:e1:cb -j DROP
@@ -830,8 +823,7 @@
 /sbin/ip neigh replace 192.168.45.211 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 80:9b:20:17:9d:f8 -j DROP
 /sbin/ip neigh replace 192.168.45.212 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source bc:44:86:90:fc:ca -j DROP
-/sbin/ip neigh replace 192.168.45.213 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.213 lladdr bc:44:86:90:fc:ca dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source d0:5b:a8:0a:01:25 -j DROP
 /sbin/ip neigh replace 192.168.45.214 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.215 lladdr 0c:ec:84:84:d8:32 dev eth2 nud perm 
