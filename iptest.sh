@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/sbin/ifconfig  eth0 | grep "inet " > /home/luis/desechosSolidos/ip.txt·
+/sbin/ifconfig  eth0 | grep "inet:" > /home/luis/desechosSolidos/ip.txt
 #cd /home/luis/desechosSolidos/
 git add .
 git commit -m "act ip"
