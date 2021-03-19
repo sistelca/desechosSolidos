@@ -1,4 +1,4 @@
-/ip firewall filter { remove [find chain=bloqueado] } 
+/ip firewall filter { remove [find chain=bloqueado] }
 /ip arp remove [find where !dynamic]
 /ip firewall filter add src-mac-address=fc:c2:de:4d:94:ec action=drop chain=bloqueado
 /ip arp add address=192.168.40.1 mac-address=00:00:00:00:00:00 interface=Lan
@@ -19,7 +19,7 @@
 /ip arp add address=192.168.40.9 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.10 mac-address=80:fd:7a:4a:6f:10 interface=Lan
 /ip arp add address=192.168.40.11 mac-address=00:1c:c0:e5:4e:cc interface=Lan
-/ip arp add address=192.168.40.12 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.12 mac-address=b8:ae:ed:e3:e1:43 interface=Lan
 /ip firewall filter add src-mac-address=60:e7:01:bf:21:0a action=drop chain=bloqueado
 /ip arp add address=192.168.40.13 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.14 mac-address=00:30:67:47:46:16 interface=Lan
