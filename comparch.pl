@@ -45,7 +45,7 @@ if($estado > 0) {  # si son diferentes.
 
 	# esta opcion genera un respaldo para la bd clientes, (conservar mientras no
 	# consuma demasiado tiempo
-	system("mysqldump -u root --password=prometea2008 clientes>/root/Desktop/resplientes.sql");
+	system("mysqldump -u memelo --password=mamabitch clientes>/root/Desktop/resplientes.sql");
 	system("/bin/cp Desktop/resplientes.sql /home/luis/desechosSolidos/resplientes.sql");
 #	system("/root/disposer.sh www.sistelca.net");
 
@@ -57,15 +57,15 @@ if($estado > 0) {  # si son diferentes.
 
 $consulta->finish(); $dbh->disconnect;
 
-# if($estado > 0) {  # si son diferentes.
+if($estado > 0) {  # si son diferentes.
 
-chdir('/home/luis/desechosSolidos') or die "$!";
-system("git add .");
-system("git commit -m \"act\"");
-system("git push origin master");
-chdir('/root') or die "$!";
+	chdir('/home/luis/desechosSolidos') or die "$!";
+	system("git add .");
+	system("git commit -m \"act\"");
+	system("git push origin master");
+	chdir('/root') or die "$!";
 
-#	system("/root/avisor.pl 1");
-#}
+	system("/root/avisor.pl 1");
+}
 
 
