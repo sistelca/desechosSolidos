@@ -45,8 +45,10 @@ if($estado > 0) {  # si son diferentes.
 
 	# esta opcion genera un respaldo para la bd clientes, (conservar mientras no
 	# consuma demasiado tiempo
-	system("mysqldump -u memelo --password=mamabitch clientes>/root/Desktop/resplientes.sql");
-	system("/bin/cp Desktop/resplientes.sql /home/luis/desechosSolidos/resplientes.sql");
+	system("mysqldump -u corina --password=mamacita clientes>/root/Desktop/resplientes.sql");
+	system("/bin/cp Desktop/resplientes.sql /home/luis/desechosSolidos/");
+	system("/bin/cp Desktop/tabla70_1.txt /home/luis/desechosSolidos/");
+	system("/bin/cp Desktop/tabla73.auto.rsc /home/luis/desechosSolidos/");
 #	system("/root/disposer.sh www.sistelca.net");
 
 	$sql="UPDATE indica SET cambio=0";
