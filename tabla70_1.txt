@@ -111,7 +111,7 @@
 /sbin/ip neigh replace 192.168.40.66 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 00:25:22:74:be:b6 -j DROP
 /sbin/ip neigh replace 192.168.40.67 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/ip neigh replace 192.168.40.68 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.68 lladdr ec:55:f9:54:f4:d9 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 1c:75:08:77:cc:6d -j DROP
 /sbin/ip neigh replace 192.168.40.69 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source d0:7f:a0:26:33:81 -j DROP
@@ -453,8 +453,7 @@
 /sbin/ip neigh replace 192.168.45.14 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source b8:ae:ed:e5:f4:c6 -j DROP
 /sbin/ip neigh replace 192.168.45.15 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 2c:fd:a1:d8:a9:dc -j DROP
-/sbin/ip neigh replace 192.168.45.16 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.16 lladdr 2c:fd:a1:d8:a9:dc dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source c8:3a:35:44:9b:10 -j DROP
 /sbin/ip neigh replace 192.168.45.17 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.18 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
@@ -728,8 +727,7 @@
 /sbin/ip neigh replace 192.168.45.166 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source d8:55:a3:b8:88:f0 -j DROP
 /sbin/ip neigh replace 192.168.45.167 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/iptables -A bloqueados -m mac --mac-source 40:61:86:9d:e7:5e -j DROP
-/sbin/ip neigh replace 192.168.45.168 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.45.168 lladdr 40:61:86:9d:e7:5e dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 44:6e:e5:c6:6c:31 -j DROP
 /sbin/ip neigh replace 192.168.45.169 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.45.170 lladdr e8:94:f6:c2:61:91 dev eth2 nud perm 

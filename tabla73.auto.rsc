@@ -113,7 +113,7 @@
 /ip arp add address=192.168.40.66 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=00:25:22:74:be:b6 action=drop chain=bloqueado
 /ip arp add address=192.168.40.67 mac-address=00:00:00:00:00:00 interface=Lan
-/ip arp add address=192.168.40.68 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.68 mac-address=ec:55:f9:54:f4:d9 interface=Lan
 /ip firewall filter add src-mac-address=1c:75:08:77:cc:6d action=drop chain=bloqueado
 /ip arp add address=192.168.40.69 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=d0:7f:a0:26:33:81 action=drop chain=bloqueado
@@ -455,8 +455,7 @@
 /ip arp add address=192.168.45.14 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=b8:ae:ed:e5:f4:c6 action=drop chain=bloqueado
 /ip arp add address=192.168.45.15 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=2c:fd:a1:d8:a9:dc action=drop chain=bloqueado
-/ip arp add address=192.168.45.16 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.45.16 mac-address=2c:fd:a1:d8:a9:dc interface=Lan
 /ip firewall filter add src-mac-address=c8:3a:35:44:9b:10 action=drop chain=bloqueado
 /ip arp add address=192.168.45.17 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.18 mac-address=00:00:00:00:00:00 interface=Lan
@@ -730,8 +729,7 @@
 /ip arp add address=192.168.45.166 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=d8:55:a3:b8:88:f0 action=drop chain=bloqueado
 /ip arp add address=192.168.45.167 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=40:61:86:9d:e7:5e action=drop chain=bloqueado
-/ip arp add address=192.168.45.168 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.45.168 mac-address=40:61:86:9d:e7:5e interface=Lan
 /ip firewall filter add src-mac-address=44:6e:e5:c6:6c:31 action=drop chain=bloqueado
 /ip arp add address=192.168.45.169 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.170 mac-address=e8:94:f6:c2:61:91 interface=Lan
