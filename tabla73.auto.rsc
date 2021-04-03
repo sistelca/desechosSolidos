@@ -175,8 +175,7 @@
 /ip arp add address=192.168.40.99 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=44:6d:57:df:3c:04 action=drop chain=bloqueado
 /ip arp add address=192.168.40.100 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=b8:ae:ed:e8:49:ba action=drop chain=bloqueado
-/ip arp add address=192.168.40.101 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.101 mac-address=b8:ae:ed:e8:49:ba interface=Lan
 /ip firewall filter add src-mac-address=71:71:bc:85:07:e0 action=drop chain=bloqueado
 /ip arp add address=192.168.40.102 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=74:de:2b:df:c5:c2 action=drop chain=bloqueado
@@ -184,7 +183,7 @@
 /ip firewall filter add src-mac-address=78:62:56:ce:5a:91 action=drop chain=bloqueado
 /ip arp add address=192.168.40.104 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.105 mac-address=bc:98:df:77:ca:ef interface=Lan
-/ip arp add address=192.168.40.106 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.106 mac-address=dc:f3:46:65:fe:9f interface=Lan
 /ip firewall filter add src-mac-address=80:9b:20:ad:41:6c action=drop chain=bloqueado
 /ip arp add address=192.168.40.107 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.108 mac-address=58:d9:c3:65:1f:35 interface=Lan
@@ -548,8 +547,7 @@
 /ip arp add address=192.168.45.65 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=cc:79:4a:45:a1:48 action=drop chain=bloqueado
 /ip arp add address=192.168.45.66 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=00:30:67:c5:ce:4b action=drop chain=bloqueado
-/ip arp add address=192.168.45.67 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.45.67 mac-address=00:30:67:c5:ce:4b interface=Lan
 /ip firewall filter add src-mac-address=00:17:c4:f3:6e:3f action=drop chain=bloqueado
 /ip arp add address=192.168.45.68 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.69 mac-address=90:f6:52:91:a7:d5 interface=Lan
