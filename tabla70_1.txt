@@ -169,7 +169,7 @@
 /sbin/ip neigh replace 192.168.40.99 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 44:6d:57:df:3c:04 -j DROP
 /sbin/ip neigh replace 192.168.40.100 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
-/sbin/ip neigh replace 192.168.40.101 lladdr b8:ae:ed:e8:49:ba dev eth2 nud perm 
+/sbin/ip neigh replace 192.168.40.101 lladdr bc:ff:eb:2c:e8:fc dev eth2 nud perm 
 /sbin/iptables -A bloqueados -m mac --mac-source 71:71:bc:85:07:e0 -j DROP
 /sbin/ip neigh replace 192.168.40.102 lladdr 00:00:00:00:00:00 dev eth2 nud perm 
 /sbin/ip neigh replace 192.168.40.103 lladdr 74:de:2b:df:c5:c2 dev eth2 nud perm 
