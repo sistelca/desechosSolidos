@@ -17,11 +17,9 @@
 /ip arp add address=192.168.40.8 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=1c:4b:d6:3c:88:ab action=drop chain=bloqueado
 /ip arp add address=192.168.40.9 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=80:fd:7a:4a:6f:10 action=drop chain=bloqueado
-/ip arp add address=192.168.40.10 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.10 mac-address=80:fd:7a:4a:6f:10 interface=Lan
 /ip arp add address=192.168.40.11 mac-address=00:1c:c0:e5:4e:cc interface=Lan
-/ip firewall filter add src-mac-address=b8:ae:ed:e3:e1:43 action=drop chain=bloqueado
-/ip arp add address=192.168.40.12 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.12 mac-address=b8:ae:ed:e3:e1:43 interface=Lan
 /ip firewall filter add src-mac-address=60:e7:01:bf:21:0a action=drop chain=bloqueado
 /ip arp add address=192.168.40.13 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.14 mac-address=00:30:67:47:46:16 interface=Lan
@@ -124,10 +122,8 @@
 /ip arp add address=192.168.40.74 mac-address=08:3e:8e:06:5e:82 interface=Lan
 /ip firewall filter add src-mac-address=bc:25:e0:07:bc:e5 action=drop chain=bloqueado
 /ip arp add address=192.168.40.75 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=bc:25:e0:92:da:4c action=drop chain=bloqueado
-/ip arp add address=192.168.40.76 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=9c:d9:17:6c:f4:38 action=drop chain=bloqueado
-/ip arp add address=192.168.40.77 mac-address=00:00:00:00:00:00 interface=Lan
+/ip arp add address=192.168.40.76 mac-address=bc:25:e0:92:da:4c interface=Lan
+/ip arp add address=192.168.40.77 mac-address=9c:d9:17:6c:f4:38 interface=Lan
 /ip firewall filter add src-mac-address=e8:94:f6:04:ac:b7 action=drop chain=bloqueado
 /ip arp add address=192.168.40.78 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=24:fd:52:3d:d0:b0 action=drop chain=bloqueado
