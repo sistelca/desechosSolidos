@@ -243,7 +243,8 @@
 /ip arp add address=192.168.40.149 mac-address=80:6a:b0:3e:f0:45 interface=Lan
 /ip firewall filter add src-mac-address=60:14:66:66:ef:71 action=drop chain=bloqueado
 /ip arp add address=192.168.40.150 mac-address=00:00:00:00:00:00 interface=Lan
-/ip arp add address=192.168.40.151 mac-address=bc:25:e0:91:1b:e6 interface=Lan
+/ip firewall filter add src-mac-address=bc:25:e0:91:1b:e6 action=drop chain=bloqueado
+/ip arp add address=192.168.40.151 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.152 mac-address=7c:b1:5d:79:cd:88 interface=Lan
 /ip firewall filter add src-mac-address=e0:b9:a5:a5:bd:5b action=drop chain=bloqueado
 /ip arp add address=192.168.40.153 mac-address=00:00:00:00:00:00 interface=Lan
@@ -512,7 +513,6 @@
 /ip arp add address=192.168.45.59 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=a8:a6:68:16:34:0d action=drop chain=bloqueado
 /ip arp add address=192.168.45.60 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=fc:2d:5e:fd:f3:7f action=drop chain=bloqueado
 /ip arp add address=192.168.45.61 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=14:6b:72:cd:d9:94 action=drop chain=bloqueado
 /ip arp add address=192.168.45.62 mac-address=00:00:00:00:00:00 interface=Lan
@@ -589,7 +589,6 @@
 /ip arp add address=192.168.45.105 mac-address=74:27:ea:84:e1:84 interface=Lan
 /ip firewall filter add src-mac-address=00:1d:72:c2:f7:55 action=drop chain=bloqueado
 /ip arp add address=192.168.45.106 mac-address=00:00:00:00:00:00 interface=Lan
-/ip firewall filter add src-mac-address=b8:8a:60:35:b5:98 action=drop chain=bloqueado
 /ip arp add address=192.168.45.107 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.108 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=d8:42:ac:60:b7:d8 action=drop chain=bloqueado
@@ -664,7 +663,8 @@
 /ip arp add address=192.168.45.150 mac-address=10:fe:ed:5d:09:44 interface=Lan
 /ip firewall filter add src-mac-address=74:de:2b:1e:e6:85 action=drop chain=bloqueado
 /ip arp add address=192.168.45.151 mac-address=00:00:00:00:00:00 interface=Lan
-/ip arp add address=192.168.45.152 mac-address=b8:8a:60:36:26:c0 interface=Lan
+/ip firewall filter add src-mac-address=b8:8a:60:36:26:c0 action=drop chain=bloqueado
+/ip arp add address=192.168.45.152 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.153 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.45.154 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=64:66:b3:37:be:2f action=drop chain=bloqueado
