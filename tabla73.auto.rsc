@@ -191,7 +191,7 @@
 /ip arp add address=192.168.40.112 mac-address=00:00:00:00:00:00 interface=Lan
 /ip arp add address=192.168.40.113 mac-address=7c:fd:6b:db:a7:8b interface=Lan
 /ip arp add address=192.168.40.114 mac-address=d0:31:69:bf:72:2f interface=Lan
-/ip arp add address=192.168.40.115 mac-address=b8:94:36:4e:e6:2b interface=Lan
+/ip arp add address=192.168.40.115 mac-address=3c:dc:bc:57:10:e4 interface=Lan
 /ip firewall filter add src-mac-address=00:25:22:f1:a1:0b action=drop chain=bloqueado
 /ip arp add address=192.168.40.116 mac-address=00:00:00:00:00:00 interface=Lan
 /ip firewall filter add src-mac-address=b4:1c:30:db:18:1c action=drop chain=bloqueado
