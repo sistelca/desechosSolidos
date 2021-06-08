@@ -346,7 +346,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'valentin','e55dc8baa352f8388429d4d61d8b61ac',0,'','','bb9b5ef4217a48e2a29264e892dfccfc'),(2,'beto','e55dc8baa352f8388429d4d61d8b61ac',5,'','','bf5748c2ec7621229befa48a6d858f4a'),(3,'luis','784e75029e0a832d4b25ff155635f9fc',0,'','','e862acddf40880e2623b390a70be7f1f');
+INSERT INTO `usuarios` VALUES (1,'valentin','e55dc8baa352f8388429d4d61d8b61ac',0,'','','10cd3aa68759e08bb1f1dfcbdb8cf5c2'),(2,'beto','e55dc8baa352f8388429d4d61d8b61ac',5,'','','bf5748c2ec7621229befa48a6d858f4a'),(3,'luis','784e75029e0a832d4b25ff155635f9fc',0,'','','e862acddf40880e2623b390a70be7f1f');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -359,4 +359,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-08  4:29:18
+-- Dump completed on 2021-06-08  4:46:50
