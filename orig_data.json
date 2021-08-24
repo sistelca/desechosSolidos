@@ -1,1 +1,1 @@
-[{"fecha": "2021-08-24 13:11:42", "instruccion": "{\"datos_red\":{\"op\":\"update\",\"set\":\" dir_mac='6c:43:3c:5e:54:f1' \",\"filtro\":\" dir_ip='192.168.45.058'\"}}", "firma": "f846ac89c079bf901e4ed10fec8d3d2b20603b13"}]
+[{"fecha": "2021-08-24 13:43:40", "instruccion": "{\"datos_red\":{\"op\":\"update\",\"set\":\" dir_mac='74:de:2d:df:c5:c2' \",\"filtro\":\" dir_ip='192.168.40.022'\"}}", "firma": "f811f7cb2f1b08e507fc76e9f5bf6418f2b74520"}]
