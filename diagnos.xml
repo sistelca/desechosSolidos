@@ -22,7 +22,7 @@
   </router>
   <router>
     <nombre>MegSalas</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.40.54</dirIp>
     <ubicacion>KsvVda8</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>17:28:1</fecha>
+    <fecha>8:58:1</fecha>
   </momento>
 </routers>
