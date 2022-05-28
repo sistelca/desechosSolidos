@@ -70,7 +70,7 @@
   </router>
   <router>
     <nombre>Mercado</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.4</dirIp>
     <ubicacion>LocalMercado</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>8:28:1</fecha>
+    <fecha>18:28:1</fecha>
   </momento>
 </routers>
