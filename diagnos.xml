@@ -40,7 +40,7 @@
   </router>
   <router>
     <nombre>KsvGuard</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.5</dirIp>
     <ubicacion>KosovoGuarderia</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>13:28:1</fecha>
+    <fecha>13:58:1</fecha>
   </momento>
 </routers>
