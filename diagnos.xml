@@ -34,7 +34,7 @@
   </router>
   <router>
     <nombre>KsvPlan</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.66.18</dirIp>
     <ubicacion>KosovoPlan</ubicacion>
   </router>
@@ -82,11 +82,11 @@
   </router>
   <router>
     <nombre>Miguelina</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.45.195</dirIp>
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>10:58:1</fecha>
+    <fecha>20:28:1</fecha>
   </momento>
 </routers>
