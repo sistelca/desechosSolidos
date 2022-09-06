@@ -34,13 +34,13 @@
   </router>
   <router>
     <nombre>KsvPlan</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.66.18</dirIp>
     <ubicacion>KosovoPlan</ubicacion>
   </router>
   <router>
     <nombre>KsvGuard</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.66.5</dirIp>
     <ubicacion>KosovoGuarderia</ubicacion>
   </router>
@@ -64,7 +64,7 @@
   </router>
   <router>
     <nombre>KsvVeter</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.66.23</dirIp>
     <ubicacion>KsvCalle3</ubicacion>
   </router>
@@ -82,11 +82,11 @@
   </router>
   <router>
     <nombre>Miguelina</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.45.195</dirIp>
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>17:28:1</fecha>
+    <fecha>20:58:1</fecha>
   </momento>
 </routers>
