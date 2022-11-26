@@ -64,7 +64,7 @@
   </router>
   <router>
     <nombre>KsvVeter</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.23</dirIp>
     <ubicacion>KsvCalle3</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>7:58:1</fecha>
+    <fecha>8:58:1</fecha>
   </momento>
 </routers>
