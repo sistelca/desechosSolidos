@@ -82,7 +82,7 @@
   </router>
   <router>
     <nombre>Miguelina</nombre>
-    <estado>xx</estado>
+    <estado>ok</estado>
     <dirIp>192.168.45.195</dirIp>
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
