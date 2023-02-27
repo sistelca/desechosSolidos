@@ -46,7 +46,7 @@
   </router>
   <router>
     <nombre>KsvYenny</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.20</dirIp>
     <ubicacion>KsvYenny</ubicacion>
   </router>
@@ -58,13 +58,13 @@
   </router>
   <router>
     <nombre>Blq12</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.32</dirIp>
     <ubicacion>Blq12</ubicacion>
   </router>
   <router>
     <nombre>KsvVeter</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.23</dirIp>
     <ubicacion>KsvCalle3</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>8:28:1</fecha>
+    <fecha>18:58:1</fecha>
   </momento>
 </routers>
