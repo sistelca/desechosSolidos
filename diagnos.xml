@@ -58,7 +58,7 @@
   </router>
   <router>
     <nombre>Blq12</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.66.32</dirIp>
     <ubicacion>Blq12</ubicacion>
   </router>
@@ -87,6 +87,6 @@
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>13:58:1</fecha>
+    <fecha>14:28:1</fecha>
   </momento>
 </routers>
