@@ -82,11 +82,11 @@
   </router>
   <router>
     <nombre>Miguelina</nombre>
-    <estado>ok</estado>
+    <estado>xx</estado>
     <dirIp>192.168.45.195</dirIp>
     <ubicacion>Vda4Eduv</ubicacion>
   </router>
   <momento>
-    <fecha>13:28:1</fecha>
+    <fecha>11:28:1</fecha>
   </momento>
 </routers>
